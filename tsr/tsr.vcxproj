@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClCompile Include="..\src\CBitmap.cpp" />
     <ClCompile Include="..\src\CColor.cpp" />
+    <ClCompile Include="..\src\CFilter.cpp" />
     <ClCompile Include="..\src\CMat.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\CBitmap.hpp" />
     <ClInclude Include="..\src\CColor.hpp" />
+    <ClInclude Include="..\src\CFilter.hpp" />
     <ClInclude Include="..\src\CMat.hpp" />
     <ClInclude Include="..\src\Common.hpp" />
   </ItemGroup>

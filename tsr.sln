@@ -6,8 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tsr", "tsr\tsr.vcxproj", "{B7FB0EAF-DF74-45B7-B234-53D260742BBB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main\main.vcxproj", "{4F6BDF77-C52A-4CD6-B4CF-9A7D118484AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7FB0EAF-DF74-45B7-B234-53D260742BBB} = {B7FB0EAF-DF74-45B7-B234-53D260742BBB}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cvter", "cvter\cvter.vcxproj", "{1A77C5EC-E6C8-4C34-9277-2C1025111356}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7FB0EAF-DF74-45B7-B234-53D260742BBB} = {B7FB0EAF-DF74-45B7-B234-53D260742BBB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
