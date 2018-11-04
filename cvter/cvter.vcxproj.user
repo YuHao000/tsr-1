@@ -3,7 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerCommand>$(SolutionDir)$(TargetName)$(TargetExt)</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>sobel $(SolutionDir)data\tr2\3.jpg $(SolutionDir)out\3.sobel.jpg</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>fltcolor $(SolutionDir)data\tr2\5.jpg $(SolutionDir)out\1.flt.jpg</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerCommand>$(SolutionDir)$(TargetName)$(TargetExt)</LocalDebuggerCommand>
