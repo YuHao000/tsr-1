@@ -2,6 +2,7 @@
 
 #include <vector>
 #include "CRect.hpp"
+#include "CBitset.hpp"
 
 namespace tsr
 {
@@ -27,6 +28,7 @@ namespace tsr
         int                                 m_ly;
         int                                 m_rx;
         int                                 m_ry;
+        CBitset                             m_bs;   // bit set
     };
 }
 

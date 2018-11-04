@@ -11,8 +11,8 @@ namespace tsr
         m_ly = h;
         m_rx = 0;
         m_ry = 0;
+        //m_bs.SetSize(w * h);
     }
-
 
     CPointSet::~CPointSet()
     {

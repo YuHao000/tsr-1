@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\CBitmap.cpp" />
+    <ClCompile Include="..\src\CBitset.cpp" />
     <ClCompile Include="..\src\CColor.cpp" />
     <ClCompile Include="..\src\CDetect.cpp" />
     <ClCompile Include="..\src\CFilter.cpp" />
@@ -29,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\CBitmap.hpp" />
+    <ClInclude Include="..\src\CBitset.hpp" />
     <ClInclude Include="..\src\CColor.hpp" />
     <ClInclude Include="..\src\CDetect.hpp" />
     <ClInclude Include="..\src\CFilter.hpp" />
