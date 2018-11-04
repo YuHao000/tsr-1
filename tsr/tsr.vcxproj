@@ -21,15 +21,21 @@
   <ItemGroup>
     <ClCompile Include="..\src\CBitmap.cpp" />
     <ClCompile Include="..\src\CColor.cpp" />
+    <ClCompile Include="..\src\CDetect.cpp" />
     <ClCompile Include="..\src\CFilter.cpp" />
     <ClCompile Include="..\src\CMat.cpp" />
+    <ClCompile Include="..\src\CPointSet.cpp" />
+    <ClCompile Include="..\src\CRect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\CBitmap.hpp" />
     <ClInclude Include="..\src\CColor.hpp" />
+    <ClInclude Include="..\src\CDetect.hpp" />
     <ClInclude Include="..\src\CFilter.hpp" />
     <ClInclude Include="..\src\CMat.hpp" />
     <ClInclude Include="..\src\Common.hpp" />
+    <ClInclude Include="..\src\CPointSet.hpp" />
+    <ClInclude Include="..\src\CRect.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -170,6 +176,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <OutputFile>$(SolutionDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

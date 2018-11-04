@@ -3,10 +3,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerCommand>$(SolutionDir)$(TargetName)$(TargetExt)</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>gaussblur $(SolutionDir)data\004.jpg $(SolutionDir)out\004.gauss.jpg 0.5</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>fltcolor $(SolutionDir)data\tr2\2.jpg $(SolutionDir)out\2.rect.jpg</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerCommand>$(SolutionDir)$(TargetName)$(TargetExt)</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>fltcolor $(SolutionD)</LocalDebuggerCommandArguments>
   </PropertyGroup>
 </Project>
