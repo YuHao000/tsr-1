@@ -19,21 +19,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\CannyEdgeDetector.cpp" />
     <ClCompile Include="..\src\CBitmap.cpp" />
     <ClCompile Include="..\src\CBitset.cpp" />
     <ClCompile Include="..\src\CColor.cpp" />
     <ClCompile Include="..\src\CDetect.cpp" />
     <ClCompile Include="..\src\CFilter.cpp" />
+    <ClCompile Include="..\src\CLog.cpp" />
     <ClCompile Include="..\src\CMat.cpp" />
     <ClCompile Include="..\src\CPointSet.cpp" />
     <ClCompile Include="..\src\CRect.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\CannyEdgeDetector.h" />
     <ClInclude Include="..\src\CBitmap.hpp" />
     <ClInclude Include="..\src\CBitset.hpp" />
     <ClInclude Include="..\src\CColor.hpp" />
     <ClInclude Include="..\src\CDetect.hpp" />
     <ClInclude Include="..\src\CFilter.hpp" />
+    <ClInclude Include="..\src\CLog.hpp" />
     <ClInclude Include="..\src\CMat.hpp" />
     <ClInclude Include="..\src\Common.hpp" />
     <ClInclude Include="..\src\CPointSet.hpp" />
